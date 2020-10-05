@@ -14,7 +14,7 @@ Checklist:
 Anything that requires automation (build, test, lint) should be possible done w/o any additional steps or with one command in console
 
 ## Description
-The game provides only CLI
+The game provides only CLI  
 The rules are:
 - you have a random word guessed for you
 - you may guess one letter case insensitive, if it's not right you lose one live
