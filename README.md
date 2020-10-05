@@ -3,13 +3,13 @@ A repo for training on writing proper (almost) program
 
 ## The task
 Checklist:
--[x] Description in `README.MD` using Markdown.
--[x] An open License in `LICENSE`.
--[ ] Declaration of dependencies and building.
--[ ] Static code analyzer.
--[ ] Test.
--[ ] CI (?Travis?).
--[ ] There is a code coverage analyzer (?CodeCov?).
+- [x] Description in `README.MD` using Markdown.
+- [x] An open License in `LICENSE`.
+- [ ] Declaration of dependencies and building.
+- [ ] Static code analyzer.
+- [ ] Test.
+- [ ] CI (?Travis?).
+- [ ] There is a code coverage analyzer (?CodeCov?).
 
 Anything that requires automation (build, test, lint) should be possible done w/o any additional steps or with one command in console
 
