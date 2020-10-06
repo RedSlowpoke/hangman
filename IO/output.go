@@ -8,7 +8,7 @@ import (
 const (
 	letterQuestion  = "Guess a letter:"
 	congratulations = "You have won!"
-	concoledence    = "Better luck next time\nThe word was %s"
+	consoledence    = "Better luck next time\nThe word was %s"
 )
 
 func AskLetter() {
@@ -37,7 +37,7 @@ func ErrorDescription(e error) {
 func Congratulate(g types.Game) {
 	fmt.Println(congratulations)
 }
-func Concoledence(g types.Game) {
-	s := fmt.Sprintf(concoledence, g.Word())
+func Consoledence(g types.Game) {
+	s := fmt.Sprintf(consoledence, g.Word())
 	fmt.Println(s)
 }
