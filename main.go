@@ -42,7 +42,7 @@ func Play() {
 		}
 		if game.IsGameLost() {
 			game.LoseGame()
-			io.Concoledence(game)
+			io.Consoledence(game)
 			return
 		}
 	}

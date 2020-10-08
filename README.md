@@ -6,7 +6,7 @@ Checklist:
 - [x] Description in `README.MD` using Markdown.
 - [x] An open License in `LICENSE`.
 - [ ] Declaration of dependencies and building.
-- [ ] Static code analyzer.
+- [ ] Static code analyzer. (golangci-lint)
 - [ ] Test.
 - [ ] CI (?Travis?).
 - [ ] There is a code coverage analyzer (?CodeCov?).

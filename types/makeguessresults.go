@@ -24,15 +24,9 @@ func (r MakeGuessResult) Code() MakeGuessResultCode {
 }
 
 func (r MakeGuessResult) IsSuccess() bool {
-	if r.resultCode == ResultGuessSuccessful {
-		return true
-	}
-	return false
+	return r.resultCode == ResultGuessSuccessful
 }
 
 func (r MakeGuessResult) IsFail() bool {
-	if r.resultCode == ResultGuessUnsuccessful {
-		return true
-	}
-	return false
+	return r.resultCode == ResultGuessUnsuccessful
 }

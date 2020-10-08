@@ -73,7 +73,7 @@ func (st *Game) LoseGame() {
 }
 
 func (st Game) IsGameWon() bool {
-	for _, r := range []rune(st.word) {
+	for _, r := range st.word {
 		if !st.IsGuessedRune(r) {
 			return false
 		}
@@ -82,8 +82,5 @@ func (st Game) IsGameWon() bool {
 }
 
 func (st Game) IsGameLost() bool {
-	if st.failedRounds >= st.maxRounds {
-		return true
-	}
-	return false
+	return st.failedRounds >= st.maxRounds
 }
